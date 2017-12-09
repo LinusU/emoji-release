@@ -1,0 +1,17 @@
+[package]
+name = "emoji-release"
+version = "0.0.0"
+authors = ["Linus Unnebäck <linus@folkdatorn.se>"]
+
+description = "Release your next package version with the power of emojis"
+homepage = "https://github.com/LinusU/emoji-release"
+documentation = "https://github.com/LinusU/emoji-release#readme"
+repository = "https://github.com/LinusU/emoji-release"
+keywords = ["emoji", "git", "log", "publish", "release"]
+readme = "readme.md"
+license = "MIT"
+
+[dependencies]
+# git2 = "~0.6.0"
+cargo-version = "~0.1.2"
+emoji-commit-type = "~0.1.0"
